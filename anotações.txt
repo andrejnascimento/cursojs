@@ -1,0 +1,54 @@
+=====================================================
+**************** Notas HTML *************************
+<!-- Comentario HTML -->
+
+
+=====================================================
+**************** Notas CSS *************************
+/* Comentario CSS */
+
+
+=====================================================
+**************** Notas JS *************************
+----------------------------------------------------- 
+        Data Types - Aula05
+number
+    Infinity
+    NaN
+string
+boolean
+null
+undefined
+object
+function
+------------------------------------------------------
+        Converção
+    Number.parseInt(n) //converte numero para inteiro
+    Number.parseFloat(n) //Converte numero para flutuante
+    Number(n) // Utiliza inteiro e flutuante
+    String(n) // Converte um numero para string
+    n.toString() // Converte numero para string
+
+-------------------------------------------------------
+        Formatando Strings / Template String
+    'Eu estou aprendendo s' // não faz interpolação
+    'Eu estou aprendendo' + s // usa concatenação
+    `Eu estou aprendendo ${} // usa template string 
+
+    `Utilizar crase para exibir o ${}'
+    
+    s.length // Quantos caracteres a string tem 
+    s.toUpperCase() // tudo para letras 'MAIUSCULAS'
+    s.toLowerCase() // tudo para letras 'minusculas'
+
+        Formatando Numeros 
+    n1.ToFixed(2) // Coloca duas casas depois da virgula
+    n1.ToLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // Coloca no formato da moeda do país
+    
+
+
+
+-------------------------------------------------------
+
+
+=====================================================
